@@ -1,0 +1,57 @@
+{
+  "trash_id": "",
+  "trash_scores": {
+    "default": 1600,
+    "polish-anime-multi": 1600,
+    "polish-anime-plsub": 1600
+  },
+  "name": "PL Anime Tier 02",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Demo Subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Demo[ .-]?Subs)\\b"
+      }
+    },
+    {
+      "name": "FrixySubs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Frixy[ .-]?Subs)\\b"
+      }
+    },
+    {
+      "name": "FujiSubs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Fuji[ .-]?Subs)\\b"
+      }
+    },
+    {
+      "name": "Fusoku Subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Fusoku[ .-]?Subs)\\b"
+      }
+    },
+    {
+      "name": "Shisha Subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(shisha)\\b"
+      }
+    }
+  ]
+}
